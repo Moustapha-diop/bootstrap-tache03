@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
   
     <title>portfolio landing pages</title>
     <link rel="stylesheet" href="style.css">
@@ -15,7 +16,7 @@
 
     <!-- ----------------navbar section--------------------- -->
  <header class="header-wrapper">
-    <nav class="navbar navbar-expand-md fixed-top  ">
+    <nav class="navbar navbar-expand-md fixed-top text-center  ">
         <div class="container">
           <a class="navbar-brand" href="#"><img src="images/logo.png" class="img-fluid"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,6 +48,7 @@
         </div>
       </nav>
  </header>
+ <!-- --------------------------home section------------------------------------------- -->
       <section id="home" class="banner_wrapper">
         <div class="container">
           <div class="row">
@@ -60,20 +62,429 @@
           </div>
         </div>
       </section>
-
+<!-- ------------------------about section---------------------------- -->
       <section id="about" class="about_wrapper">
         <div class="container">
           <div class="row justify-contrnt-between align-items-center">
-            <div class="col-md-5 mb-4 mb-md-0">
-              <img src="images/about.jpg" class="img-fluid rounded-3 w-100" alt="about-us">
+            <div class="col-md-5 mb-5 mb-md-0">
+              <img src="images/about.jpg" class="img-fluid rounded-3 w-100 " style="height:370px" alt="about-us">
             </div>
-            <div class="col-md-7 ps-md-5 text-center text-md-start"></div>
+            <div class="col-md-7 ps-md-2 text-center text-md-start">
+              <div class="my-2 mb-md-0">
+                <span class="subtitle">My About Details</span>
+                <h2>About Me</h2>
+                <p>they are many variation of passages of Lorem, ipsum dolor sit 
+                  amet consectetur adipisicing elit.</p>
+              </div>
+              <div class="pt-2">
+                <ul class="nav nav-pills justify-content-center justify-content-md-between mb-3"
+                 id="pills-tab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-skill-tab" data-bs-toggle="pill" 
+                    data-bs-target="#pills-skill" 
+                    type="button" role="tab" aria-controls="pills-home" aria-selected="true">Main skill</button>
+                  </li>
+
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-Award-tab" data-bs-toggle="pill" data-bs-target="#pills-Award"
+                     type="button" role="tab" aria-controls="pills-Award" aria-selected="false">Awards</button>
+                  </li>
+
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-Experience-tab" data-bs-toggle="pill" data-bs-target="#pills-Experience"
+                     type="button" role="tab" aria-controls="pills-Experience" aria-selected="false">Experience</button>
+                  </li>
+
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-Education-tab" data-bs-toggle="pill" data-bs-target="#pills-Education"
+                     type="button" role="tab" aria-controls="pills-Education" aria-selected="false">Education</button>
+                  </li>
+
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                  <div class="tab-pane fade show active" id="pills-skill" role="tabpanel" 
+                  aria-labelledby="pills-skill-tab">
+                  <div class="single-progress">
+                    <h6>Designing</h6>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="25" 
+                      aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span class="label">95%</span>
+                  </div>
+
+                  <div class="single-progress">
+                    <h6>Managment</h6>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="25" 
+                      aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span class="label">85%</span>
+                  </div>
+
+                  <div class="single-progress">
+                    <h6>Marketing</h6>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" 
+                      aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span class="label">75%</span>
+                  </div>
+
+                  <div class="single-progress">
+                    <h6>Managment</h6>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25" 
+                      aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span class="label">80%</span>
+                  </div>
+                </div>
+
+                  <div class="tab-pane fade" id="pills-Award" role="tabpanel" 
+                  aria-labelledby="pills-Award-tab">
+                  <ul class="text-start ps-0">
+                    <li>
+                      <a href="#">
+                        Award.com
+                        <span>- Winner</span> 
+                      </a>
+                      2019 - 2020
+                    </li>
+
+                    <li>
+                      <a href="#">
+                        CSS Design Award
+                        <span>- Winner</span> 
+                      </a>
+                      2017 - 2018
+                    </li>
+
+                    <li>
+                      <a href="#">
+                        Design naminees
+                        <span>- site of the day</span> 
+                      </a>
+                      2013 - 2014
+                    </li>
+
+                    <li>
+                      <a href="#">
+                        Award.com
+                        <span>- Winner</span> 
+                      </a>
+                      2019 - 2020
+                    </li>
+                  </ul>
+                </div>
+
+                  <div class="tab-pane fade" id="pills-Experience" role="tabpanel" 
+                  aria-labelledby="pills-Experience-tab">
+                  <ul class="text-start ps-0">
+                    <li>
+                      <a href="#">
+                        Sr. Front-end enginer
+                        <span>- Google</span> 
+                      </a>
+                      2018 - curent
+                    </li>
+
+                    <li>
+                      <a href="#">
+                        Front-end enginer
+                        <span>- Microsoft</span> 
+                      </a>
+                      2017 - 2018
+                    </li>
+
+                    <li>
+                      <a href="#">
+                        software enginer
+                        <span>- Alibaba</span> 
+                      </a>
+                      2013 - 2014
+                    </li>
+
+                    <li>
+                      <a href="#">
+                        software enginer
+                        <span>- Alibaba</span> 
+                      </a>
+                      2013 - 2014
+                    </li>
+                  </ul>
+   
+                  </div>
+
+                  <div class="tab-pane fade" id="pills-Education" role="tabpanel" 
+                  aria-labelledby="pills-Education-tab">
+                  <ul class="text-start ps-0">
+                    <li>
+                      <a href="#">Bsc in CSE
+                        <span>- ABC university, los angeles, CA</span> 
+                      </a>
+                      2010
+                    </li>
+
+                      <li>
+                        <a href="#">
+                          Diploma in cumpunter science
+                          <span>- Gamma technical institut</span> 
+                        </a>
+                        2009
+                      </li>
+
+                      <li>
+                        <a href="#">
+                          Graphic Design
+                          <span>- ABC institut, los angeles, CA</span> 
+                        </a>
+                        2007
+                      </li>
+                  </ul>
+                  </div>
+
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-    
+      <!-- ----------------------------services section-------------------------------- -->
 
+      <section id="services" class="service_wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 text-center mb-3">
+              <span class="subtitle">What i can do for you</span>
+              <h2>My awesome services</h2>
+              <p>they are my variable of passsage of lorem ipsum available, <br class="d-none d-md-block">
+              but the majority have suffered alteration.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card">
+                <div class="card-body text-sm-start text-center">
+                  <img src="./images/service/service-1.svg" alt="services class" class="img-fluid mb-4">
+                  <h3>Busness strategie</h3>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card">
+                <div class="card-body text-sm-start text-center">
+                  <img src="./images/service/service-2.svg" alt="services class" class="img-fluid mb-4">
+                  <h3>Web site developpement</h3>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card">
+                <div class="card-body text-sm-start text-center">
+                  <img src="./images/service/service-3.svg" alt="services class" class="img-fluid mb-4">
+                  <h3>Marketing & Reporting</h3>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card">
+                <div class="card-body text-sm-start text-center">
+                  <img src="./images/service/service-3.svg" alt="services class" class="img-fluid mb-4">
+                  <h3>Mobile  Developpement</h3>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card">
+                <div class="card-body text-sm-start text-center">
+                  <img src="./images/service/service-4.svg" alt="services class" class="img-fluid mb-4">
+                  <h3>Marketing & Repporting</h3>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card">
+                <div class="card-body text-sm-start text-center">
+                  <img src="./images/service/service-3.svg" alt="services class" class="img-fluid mb-4">
+                  <h3>Mobile  Developpement</h3>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ------------------------------portfolio section---------------------------------- -->
+
+    <section id="portfolio" class="portfolio_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center mb-4">
+            <span class="subtitle">My complet project</span>
+            <h2>My latest project</h2>
+            <p>they are my variable of passsage of lorem ipsum available, <br class="d-none d-md-block">
+              but the majority have suffered alteration.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6 mb-3">
+            <div class="card p-0">
+              <span style="background-image: url(./images/portfolio/Foodies.png);"></span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-6 mb-3">
+            <div class="card p-0">
+              <span style="background-image: url(./images/portfolio/App-Landing-Page.png);"></span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-6 mb-3">
+            <div class="card p-0">
+              <span style="background-image: url(./images/portfolio/commerce1.png);"></span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 mb-3">
+            <div class="card p-0">
+              <span style="background-image: url(./images/portfolio/HeadPhones.png);"></span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-6 mb-3">
+            <div class="card p-0">
+              <span style="background-image: url(./images/portfolio/commerce2.png);"></span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-6 mb-3">
+            <div class="card p-0">
+              <span style="background-image: url(./images/portfolio/Hashtag-Landing-Page.png);"></span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-6 mb-3">
+            <div class="card p-0">
+              <span style="background-image: url(./images/portfolio/Christmas-Landing-Page.png);"></span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-6 mb-3">
+            <div class="card p-0">
+              <span style="background-image: url(./images/portfolio/SEO-Landing-Page.png);"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- --------------------------------contact section---------------------------------------------------- -->
+
+    <section id="contact" class="contact_wrapper">
+      <div class="container">
+        <div class="row justify-contact-between align-items-center">
+          <div class="col-md-6 order-2 order-lg-1 pe-lg-5 text-md-start text-center">
+
+            <span class="subtitle">My complete project</span>
+          <h2>Hire Me</h2>
+
+          <div class="row call_details mb-4">
+            <label class="col-sm-3 col-lg-4">call us directly:</label>
+
+            <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+              <a href="javascript:void(0)">+111 (0)55 5869 8976</a>
+            </div>
+
+            <label class="col-sm-3 col-lg-4">Contact Email:</label>
+
+            <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+              <a href="mailto:example@gmail.com">example@gmail.com</a>
+            </div>
+            
+          </div>
+          <form>
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="your Name..." autocomplete="off">
+            </div>
+
+            <div class="mb-3">
+              <input type="number" class="form-control" placeholder="your Phone..." autocomplete="off">
+            </div>
+
+            <div class="mb-3">
+              <input type="email" class="form-control" placeholder="your Email..." autocomplete="off">
+            </div>
+
+            <div class="mb-3 ">
+             <textarea class="form-control" placeholder="Write a message..."></textarea>
+            </div>
+            <button type="submit" class="main-btn"> Submit</button>
+
+          </form>
+          
+          </div>
+
+          <div class="col-lg-6 col-md-6 order-1 order-md-2 mb-4 order-lg-1  mb-lg-0 mb-md-0">
+            <img src="./images/contact.jpg" class="img-fluid w-100 " style="height:400px">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ----------------------------------------------footer section---------------------------------------------------- -->
+
+    <section id="contact" class="footer_wrapper mt-1 mt-md-0">
+      <div class="container">
+        <div class="row align-items-center ">
+          <div class="col-lg-4 col-md-3 col-sm-6 text-center text-sm-start">
+            <div class="footer-logo mb-3 mb-sm-0">
+              <img src="images/logo.png" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <ul class="list-unstyled d-flex justify-content-center justify-content-sm-end justify-content-lg-center
+            justify-centent-md-center social-icon mb-3 mb-sm-0">
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+
+            <li>
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </li>
+          </ul>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="copyright-text text-lg-start text-md-start text-center mb-3 mb-lg-0 mb-md-0">
+              <p class="mb-0">Copyright @ 2023 <a href="#">code4education</a>. All Rights Reserved. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
 

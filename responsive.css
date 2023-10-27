@@ -21,6 +21,11 @@
         background-color: rgb(5, 5, 42);
         padding-bottom: 15px;
     }
+
+    .about_wrapper ul.nav-pills{
+        width: 100%;
+        margin: auto;
+    }
 }
 
 @media only screen and(max-width:767px){
@@ -42,5 +47,11 @@
         text-align: center;
         background-color: rgb(5, 5, 42);
         padding-bottom: 15px;
+    }
+
+    .about_wrapper ul.nav-pills{
+        width: 100%;
+        margin: auto;
+        border: 0;
     }
 }
