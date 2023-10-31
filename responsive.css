@@ -14,6 +14,7 @@
 
     .header-scrolled{
         height: auto;
+        background-color: none;
     }
 
     .header_wrapper .menu-nav-bar{
